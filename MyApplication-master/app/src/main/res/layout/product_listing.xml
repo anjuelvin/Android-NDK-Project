@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="400.00dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryLight"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:padding="15.20dp"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="16.80dp"
+        android:maxLines="1" />
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Toys Store"
+        android:scaleType="centerCrop"
+        tools:ignore="HardcodedText" />
+
+</FrameLayout>
